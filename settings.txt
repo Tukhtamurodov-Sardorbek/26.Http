@@ -1,0 +1,14 @@
+ANDROID (android/app/src/main/AndroidManifest.xml) 
+
+<uses-permission android:name="android.permission.INTERNET" /> 
+
+
+IOS (ios/Runner/Info.plist)
+
+<key>NSAppTransportSecurity</key>
+   <dict>
+       <key>NSAllowsArbitraryLoads</key>
+       <true/>
+       <key>NSAllowsArbitraryLoadsInWebContent</key>
+       <true/>
+   </dict>
