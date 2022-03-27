@@ -28,7 +28,7 @@ class Network{
   static String API_GET = '/posts/'; // {id}
   static String API_POST = '/posts';
   static String API_PUT = '/posts/'; // {id}
-  static String API_PATCH = "/todos/";  // {id}
+  static String API_PATCH = '/posts/';  // {id}
   static String API_DELETE = '/posts/'; // {id}
 
   /// Http Requests Methods
